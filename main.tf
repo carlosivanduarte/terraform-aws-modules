@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "bucket_generic" {
   }
 
   versioning {
-    enabled = true
+    enabled = var.versioning
   }
   
 }
