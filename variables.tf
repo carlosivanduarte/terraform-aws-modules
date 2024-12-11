@@ -5,5 +5,5 @@ variable "bucket_name" {
 
 variable "versioning" {
   description = "Bucket versioning"
-  type.       = string
+  type        = string
 }
